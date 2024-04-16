@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 
-svm=pickle.load(open('Iris/svc_model.pkl','rb'))
+svm=pickle.load(open('svc_model.pkl','rb'))
 
 def classify(num):
     if num<0.5:

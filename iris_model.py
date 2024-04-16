@@ -14,4 +14,4 @@ x_train,x_test,y_train,y_test=train_test_split(X,y)
 svc_model=SVC()
 svc_model=svc_model.fit(x_train,y_train)
 
-pickle.dump(svc_model,open('Iris/svc_model.pkl','wb'))
+pickle.dump(svc_model,open('svc_model.pkl','wb'))
